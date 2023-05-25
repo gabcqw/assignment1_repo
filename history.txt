@@ -1,0 +1,113 @@
+
+Gabby Chow@LAPTOP-AHH4QC1H MINGW64 /d/Python download/gab ass1 (master)
+$ touch cleanchoru.txt
+
+Gabby Chow@LAPTOP-AHH4QC1H MINGW64 /d/Python download/gab ass1 (master)
+$ git add cleanchoru.txt
+
+Gabby Chow@LAPTOP-AHH4QC1H MINGW64 /d/Python download/gab ass1 (master)
+$ git commit -m "deleted duplicate lyrics and pasted from chorus txt to cleanchoru txt"
+[master 9bdca8c] deleted duplicate lyrics and pasted from chorus txt to cleanchoru txt
+ 1 file changed, 10 insertions(+)
+ create mode 100644 cleanchoru.txt
+
+Gabby Chow@LAPTOP-AHH4QC1H MINGW64 /d/Python download/gab ass1 (master)
+$ ls -a
+./  ../  .git/  chorus.txt  cleanchoru.txt  song.txt  verse1.txt  verse2.txt
+
+Gabby Chow@LAPTOP-AHH4QC1H MINGW64 /d/Python download/gab ass1 (master)
+$ ls -a
+./  ../  .git/  cleanchoru.txt  song.txt  verse1.txt  verse2.txt
+
+Gabby Chow@LAPTOP-AHH4QC1H MINGW64 /d/Python download/gab ass1 (master)
+$ git add song.txt
+
+Gabby Chow@LAPTOP-AHH4QC1H MINGW64 /d/Python download/gab ass1 (master)
+$ git commit -m "made updates in song txt, replaced contents with file names"
+[master 7dda8ab] made updates in song txt, replaced contents with file names
+ 1 file changed, 2 insertions(+), 46 deletions(-)
+
+Gabby Chow@LAPTOP-AHH4QC1H MINGW64 /d/Python download/gab ass1 (master)
+$ git log -p
+commit 7dda8abf093ae71f8a834e84c309127f137b4741 (HEAD -> master)
+Author: gab c <zhouqianwenie@hotmail.com>
+Date:   Tue May 23 22:54:54 2023 +0100
+
+    made updates in song txt, replaced contents with file names
+
+diff --git a/song.txt b/song.txt
+index 9866605..ba5382d 100644
+--- a/song.txt
++++ b/song.txt
+@@ -1,50 +1,6 @@
+ [Verse 1]
+
+
+-[Pre-Chorus]
+-I need a little smoothing out the rough
+-I want relief, I want to feel your touch
+-I want release, a little something in the cut
+-Ah, ah-ah, ah
++clean choru
+
+-[Chorus]
+-I came here to get some dopamine
+:...skipping...
+commit 7dda8abf093ae71f8a834e84c309127f137b4741 (HEAD -> master)
+Author: gab c <zhouqianwenie@hotmail.com>
+Date:   Tue May 23 22:54:54 2023 +0100
+
+    made updates in song txt, replaced contents with file names
+
+diff --git a/song.txt b/song.txt
+index 9866605..ba5382d 100644
+--- a/song.txt
++++ b/song.txt
+@@ -1,50 +1,6 @@
+ [Verse 1]
+
+
+-[Pre-Chorus]
+-I need a little smoothing out the rough
+-I want relief, I want to feel your touch
+-I want release, a little something in the cut
+-Ah, ah-ah, ah
++clean choru
+
+-[Chorus]
+-I came here to get some dopamine
+-Ah-ah, ah, ah-ah, ah, ah, ah
+-Make it go all night, no gasoline
+-Ah-ah, ah, ah-ah, ah, ah, ah
+-Yes, I know you've been
+-Waiting for me (I need)
+-Ah-ah, ah, ah-ah, ah, ah, ah ( I need, I need)
+-I came here to get some dopamine (Dopamine)
+-Ah-ah, ah, ah-ah, ah-ah, ah-ah (I need, I need, I need dopamine)
+-I came here to (Uh, uh)
+-
+-[Verse 2]
+-
+-
+-[Pre-Chorus]
+-I need a little smoothing out the rough
+-I want relief, I want to feel your touch
+-I want release (Release), a little something in the cut
+-Ah, ah-ah, ah
+-
+-[Chorus]
+-I came here to get some dopamine
+-Ah-ah, ah, ah-ah, ah, ah, ah
+-Make it go all night, no gasoline
+-Ah-ah, ah, ah-ah, ah, ah, ah
+-Yes, I know you've been waiting for me (I need)
+-Ah-ah, ah, ah-ah, ah, ah, ah (I need, I need)
+-I came here to get some dopamine (I need)
+-Ah-ah, ah-ah, ah-ah (I need, I need dopamine)
+-I came here to (Uh, uh)
+-
+-[Post-Chorus]
+-I came here to (Uh, uh)
+-I came here to
+-I came here to (Uh, uh)
+:
